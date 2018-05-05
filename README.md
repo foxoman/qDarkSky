@@ -1,0 +1,2 @@
+# qDarkSky
+QtCreator Dark Theme
