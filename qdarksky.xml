@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<style-scheme version="1.0" name="qDarkSky">
+<style-scheme version="1.1" name="qDarkSky">
   <style name="Text" foreground="#e1e2e7" background="#2e2f30"/>
   <style name="Link" foreground="#5124e3"/>
   <style name="Selection" foreground="#b0bec5" background="#35404e"/>
   <style name="LineNumber" foreground="#555753"/>
   <style name="SearchResult" foreground="#000000" background="#ffef0b"/>
+  <style name="SearchResultAlt1" foreground="#aaaaff" background="#363655"/>
+  <style name="SearchResultAlt2" foreground="#ffaaaa" background="#553636"/>
   <style name="SearchScope" foreground="#000000" background="#f7fafe"/>
   <style name="Parentheses" foreground="#ffef0b"/>
   <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
@@ -18,6 +20,7 @@
   <style name="String" foreground="#ff5f56"/>
   <style name="Type" foreground="#ffbd2e"/>
   <style name="Local" foreground="#bb6bff"/>
+  <style name="Parameter" foreground="#bb6bff"/>
   <style name="Global" foreground="#0484ff"/>
   <style name="Field" foreground="#0484ff"/>
   <style name="Static" foreground="#ee72ba"/>
@@ -25,7 +28,9 @@
   <style name="Function" foreground="#e1e2e7"/>
   <style name="Keyword" foreground="#ee72ba"/>
   <style name="PrimitiveType" foreground="#4ef278"/>
+  <style name="Punctuation"/>
   <style name="Operator" foreground="#babdb6" bold="true"/>
+  <style name="Overloaded Operator"/>
   <style name="Preprocessor" foreground="#888a85" bold="true"/>
   <style name="Label" foreground="#bb6bff"/>
   <style name="Comment" foreground="#607d8b"/>
@@ -55,6 +60,11 @@
   <style name="DiffDestLine" foreground="#2e3436" background="#dfffdf"/>
   <style name="DiffDestChar" foreground="#2e3436" background="#afffaf"/>
   <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="LogAuthorName" foreground="#ceffe5"/>
+  <style name="LogCommitDate" foreground="#00ff00"/>
+  <style name="LogCommitHash" foreground="#ff0000"/>
+  <style name="LogCommitSubject" foreground="#d6cf9a"/>
+  <style name="LogDecoration" foreground="#ff00ff"/>
   <style name="Warning" underlineColor="#ffbe00" underlineStyle="SingleUnderline"/>
   <style name="WarningContext" underlineColor="#ffbe00" underlineStyle="DotLine"/>
   <style name="Error" underlineColor="#ff0000" underlineStyle="SingleUnderline"/>
