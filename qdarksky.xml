@@ -7,6 +7,7 @@
   <style name="SearchResult" foreground="#000000" background="#ffef0b"/>
   <style name="SearchResultAlt1" foreground="#aaaaff" background="#363655"/>
   <style name="SearchResultAlt2" foreground="#ffaaaa" background="#553636"/>
+  <style name="SearchResultContainingFunction" foreground="#d6cf9a" background="#2e2f30"/>
   <style name="SearchScope" foreground="#000000" background="#f7fafe"/>
   <style name="Parentheses" foreground="#ffef0b"/>
   <style name="ParenthesesMismatch" foreground="#000000" background="#ff00ff"/>
@@ -19,6 +20,7 @@
   <style name="Number" foreground="#40dfa8"/>
   <style name="String" foreground="#ff5f56"/>
   <style name="Type" foreground="#ffbd2e"/>
+  <style name="Namespace" foreground="#ffbd2e"/>
   <style name="Local" foreground="#bb6bff"/>
   <style name="Parameter" foreground="#bb6bff"/>
   <style name="Global" foreground="#0484ff"/>
@@ -28,15 +30,16 @@
   <style name="Function" foreground="#e1e2e7"/>
   <style name="Keyword" foreground="#ee72ba"/>
   <style name="PrimitiveType" foreground="#4ef278"/>
-  <style name="Punctuation"/>
   <style name="Operator" foreground="#babdb6" bold="true"/>
   <style name="Overloaded Operator"/>
+  <style name="Punctuation"/>
   <style name="Preprocessor" foreground="#888a85" bold="true"/>
+  <style name="Macro"/>
   <style name="Label" foreground="#bb6bff"/>
   <style name="Comment" foreground="#607d8b"/>
   <style name="Doxygen.Comment" foreground="#607d8b"/>
   <style name="Doxygen.Tag" foreground="#607d8b" bold="true"/>
-  <style name="VisualWhitespace" foreground="#c0c0c0"/>
+  <style name="VisualWhitespace" foreground="#4c4d50"/>
   <style name="QmlLocalId" foreground="#bb6bff"/>
   <style name="QmlExternalId" foreground="#bb6bff"/>
   <style name="QmlTypeId" foreground="#ffbd2e"/>
@@ -72,5 +75,16 @@
   <style name="Declaration"/>
   <style name="FunctionDefinition"/>
   <style name="OutputArgument" foreground="#000000" background="#ffffff"/>
+  <style name="StaticMember"/>
+  <style name="CocoCodeAdded"/>
+  <style name="CocoPartiallyCovered" foreground="#808000"/>
+  <style name="CocoNotCovered" foreground="#ff0000"/>
+  <style name="CocoFullyCovered" foreground="#00ff00"/>
+  <style name="CocoManuallyValidated" foreground="#0000ff"/>
+  <style name="CocoDeadCode" foreground="#ff00ff"/>
+  <style name="CocoExecutionCountTooLow" foreground="#ff0000"/>
+  <style name="CocoNotCoveredInfo" foreground="#ff0000"/>
+  <style name="CocoCoveredInfo" foreground="#00ff00"/>
+  <style name="CocoManuallyValidatedInfo" foreground="#0000ff"/>
   <style name="LastStyleSentinel"/>
 </style-scheme>
